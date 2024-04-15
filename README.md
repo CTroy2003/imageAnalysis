@@ -16,3 +16,13 @@ Steps:
   Change Detection: Compute the absolute difference between the new image and the background image.
   Apply a threshold to this difference image to create a binary image that highlights areas of significant change.
   Alarm Decision: If the percentage of foreground pixels exceeds a predefined alert threshold (A), trigger an alarm and display a message on the image.
+
+color_detector -
+
+This program is designed for real-time video capture and processing to detect red colors in video streams using RGB and HSV color spaces.
+
+color_detector_two - 
+
+This program is designed to capture real-time video feed and convert it into both RGB and grayscale formats, applying image-processing technique in real time.
+
+
