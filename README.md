@@ -5,8 +5,11 @@
 This program is designed to detect significant changes in a video stream and trigger an alarm accordingly. The primary functionality revolves around real-time image processing to monitor deviations from a predefined background state.
 
 Steps:
+
 1.Camera Connection: Initiate a connection to the camera.
+
 2.Background Setup: Capture an initial background image, convert it to grayscale, and store it as a floating-point image for further analysis.
+
 3.Detection Loop:
   Image Acquisition: Continuously acquire new images from the camera.
   Preprocessing: Convert each new image to grayscale and then to floating-point format.
