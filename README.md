@@ -12,5 +12,4 @@ Steps:
   Preprocessing: Convert each new image to grayscale and then to floating-point format.
   Change Detection: Compute the absolute difference between the new image and the background image.
   Apply a threshold to this difference image to create a binary image that highlights areas of significant change.
-
-4. Alarm Decision: If the percentage of foreground pixels exceeds a predefined alert threshold (A), trigger an alarm and display a message on the image.
+  Alarm Decision: If the percentage of foreground pixels exceeds a predefined alert threshold (A), trigger an alarm and display a message on the image.
