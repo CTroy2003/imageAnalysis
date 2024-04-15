@@ -2,7 +2,7 @@
 
  changeDetection - 
 
-This program is designed to detect significant changes in a video stream and trigger an alarm accordingly. The primary functionality revolves around real-time image processing to monitor deviations from a predefined background state.
+This program is designed to detect significant changes in a video stream and trigger an alarm accordingly. The primary functionality revolves around real-time image processing to monitor deviations from a predefined background state. OpenCV and Numpy should be installed to ensure that the program runs correctly.
 
 Steps:
 
